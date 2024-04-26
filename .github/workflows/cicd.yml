@@ -25,7 +25,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: 'nuance-bot'
-          environment_name: 'nuance-bot-env'
+          environment_name: 'Nuance-bot-env'
           version_label: ${{ github.sha }}
           region: us-east-1
           deployment_package: nuance-bot-build.zip
