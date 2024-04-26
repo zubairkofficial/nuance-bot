@@ -27,5 +27,5 @@ jobs:
           application_name: 'nuance-bot'
           environment_name: 'Nuance-bot-env'
           version_label: ${{ github.sha }}
-          region: ap-south-1
+          region: ap-south-2
           deployment_package: nuance-bot-build.zip
